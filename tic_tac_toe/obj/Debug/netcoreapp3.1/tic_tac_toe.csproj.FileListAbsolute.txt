@@ -1,0 +1,13 @@
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.csprojAssemblyReference.cache
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.AssemblyInfoInputs.cache
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.AssemblyInfo.cs
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.csproj.CoreCompileInputs.cache
+C:\Users\София\source\c#\tic_tac_toe\bin\Debug\netcoreapp3.1\tic_tac_toe.exe
+C:\Users\София\source\c#\tic_tac_toe\bin\Debug\netcoreapp3.1\tic_tac_toe.deps.json
+C:\Users\София\source\c#\tic_tac_toe\bin\Debug\netcoreapp3.1\tic_tac_toe.runtimeconfig.json
+C:\Users\София\source\c#\tic_tac_toe\bin\Debug\netcoreapp3.1\tic_tac_toe.runtimeconfig.dev.json
+C:\Users\София\source\c#\tic_tac_toe\bin\Debug\netcoreapp3.1\tic_tac_toe.dll
+C:\Users\София\source\c#\tic_tac_toe\bin\Debug\netcoreapp3.1\tic_tac_toe.pdb
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.dll
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.pdb
+C:\Users\София\source\c#\tic_tac_toe\obj\Debug\netcoreapp3.1\tic_tac_toe.genruntimeconfig.cache
