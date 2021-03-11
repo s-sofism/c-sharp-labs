@@ -4,7 +4,7 @@ namespace laba2_2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine(DateTime.Now);
             string data = Convert.ToString(DateTime.Now);
