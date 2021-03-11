@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace laba2_3
 {
@@ -7,20 +7,23 @@ namespace laba2_3
         static void Main(string[] args)
         {
             bool run = true;
-            while ( run )
+            int a = 0;
+            int b = 0;
+            while (run)
             {
-            Console.WriteLine("enter value a");
-            int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter value b");
-            int b = Convert.ToInt32(Console.ReadLine());
-            if ( a > b )
-            {
-                run = true;
-            }
-            else
-            {
-                run = false;
-            }
+                Console.WriteLine("enter value a");
+                a = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("enter value b");
+                b = Convert.ToInt32(Console.ReadLine());
+                if (a > b)
+                {
+                    Console.WriteLine("try again \n");
+                    run = true;
+                }
+                else
+                {
+                    run = false;
+                }
             }
             int resultDegree;
             int maxDegree = 0;
@@ -35,16 +38,16 @@ namespace laba2_3
             int minDegree = 0;
             number = 1;
             result = 1;
-            a = a-1;
+            a = a - 1;
             while (result != 0)
             {
                 number = number * 2;
                 result = a / number;
                 minDegree = minDegree + result;
             }
-            if (a % 2 == 0)
+            if (a + 1 <= 0)
             {
-                resultDegree = maxDegree - minDegree + 1;
+                resultDegree = 0;
             }
             else
             {
