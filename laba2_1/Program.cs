@@ -4,7 +4,7 @@ namespace laba2_1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Enter the string \n");
             string OrignalString = Console.ReadLine();
