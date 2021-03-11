@@ -1,81 +1,45 @@
-﻿using System;
-
-namespace laba2_1
+using System;
+using System.Text.RegularExpressions;
+namespace string_laba
 {
     class Program
     {
         static void Main()
         {
-            Console.WriteLine("Enter the string \n");
-            string OrignalString = Console.ReadLine();
-            string vowels = "aeiouy";
-            for (int i = 0; i < OrignalString.Length; i++)
+            string Vowels = "aeiouy";
+            string Pattern = "^[a-z]{0,}$";
+            string OrignalString;
+            while (true)
             {
-                for (int j = 0; j < vowels.Length; j++)
+                Console.WriteLine("Enter the string \n");
+                OrignalString = Console.ReadLine();
+                if (Regex.IsMatch(OrignalString, Pattern))
                 {
-                    if (OrignalString[i] == vowels[j])
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("incorrect input \n");
+                }
+            }
+            for (int i = OrignalString.Length - 1; i > 0; i--)
+            {
+                for (int j = 0; j < Vowels.Length; j++)
+                {
+                    if (OrignalString[i - 1] == Vowels[j])
                     {
-                        int temp = i;
-                        int temp1;
-                        for (int z = i; z < OrignalString.Length; z++)
+                        char letter = OrignalString[i];
+                        if (letter == 'z')
                         {
-                            if (OrignalString[z] == vowels[0] || OrignalString[z] == vowels[1] || OrignalString[z] == vowels[2] || OrignalString[z] == vowels[3]
-                                || OrignalString[z] == vowels[4] || OrignalString[z] == vowels[5])
-                            {
-                                i++;
-                            }
-                            else
-                            {
-                                break;
-                            }
+                            letter = 'a';
+                            OrignalString = OrignalString.Remove(i, 1).Insert(i, letter.ToString());
                         }
-                        temp1 = i;
-                        while (i > temp)
+                        else
                         {
-                            if (temp == OrignalString.Length - 1)
-                            {
-                                i = temp1 - 1;
-                                break;
-                            }
-                            else
-                            {
-                                if (i >= OrignalString.Length)
-                                {
-                                    i--;
-                                    char letter = OrignalString[i];
-                                    if (letter == 'z')
-                                    {
-                                        letter = 'a';
-                                        OrignalString = OrignalString.Remove(i, 1).Insert(i, letter.ToString());
-                                    }
-                                    else
-                                    {
-                                        int ascii = letter;
-                                        letter = Convert.ToChar(ascii + 1);
-                                        OrignalString = OrignalString.Remove(i, 1).Insert(i, letter.ToString());
-                                    }
-                                    i--;
-                                }
-                                else
-                                {
-                                    char letter = OrignalString[i];
-                                    if (letter == 'z')
-                                    {
-                                        letter = 'a';
-                                        OrignalString = OrignalString.Remove(i, 1).Insert(i, letter.ToString());
-                                    }
-                                    else
-                                    {
-                                        int ascii = letter;
-                                        letter = Convert.ToChar(ascii + 1);
-                                        OrignalString = OrignalString.Remove(i, 1).Insert(i, letter.ToString());
-                                    }
-                                    i--;
-                                }
-                            }
+                            int ascii = letter;
+                            letter = Convert.ToChar(ascii + 1);
+                            OrignalString = OrignalString.Remove(i, 1).Insert(i, letter.ToString());
                         }
-                        i = temp1;
-                        break;
                     }
                 }
             }
