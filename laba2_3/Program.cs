@@ -4,7 +4,7 @@ namespace laba2_3
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             bool run = true;
             string a;
