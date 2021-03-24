@@ -1,0 +1,13 @@
+C:\Users\София\source\c#\laba_3\bin\Debug\netcoreapp3.1\laba_3.exe
+C:\Users\София\source\c#\laba_3\bin\Debug\netcoreapp3.1\laba_3.deps.json
+C:\Users\София\source\c#\laba_3\bin\Debug\netcoreapp3.1\laba_3.runtimeconfig.json
+C:\Users\София\source\c#\laba_3\bin\Debug\netcoreapp3.1\laba_3.runtimeconfig.dev.json
+C:\Users\София\source\c#\laba_3\bin\Debug\netcoreapp3.1\laba_3.dll
+C:\Users\София\source\c#\laba_3\bin\Debug\netcoreapp3.1\laba_3.pdb
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.csprojAssemblyReference.cache
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.AssemblyInfoInputs.cache
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.AssemblyInfo.cs
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.csproj.CoreCompileInputs.cache
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.dll
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.pdb
+C:\Users\София\source\c#\laba_3\obj\Debug\netcoreapp3.1\laba_3.genruntimeconfig.cache
