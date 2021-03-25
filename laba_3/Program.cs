@@ -28,24 +28,15 @@ namespace laba_3
         {
 
         }
-        
         private double weight;
         private int age;
-        public enum Gender
+        public enum gender
         {
             Male,
             Female
         }
-        public enum AbilityToFly
-        {
-            Flying,
-            Flightless
-        }
-        public enum AbilityToSwim
-        {
-            not_waterfowl,
-            waterfowl
-        }
+        public bool AbilityToFly;
+        public bool AbilityToSwim;
         public double Weight
         {
             get
@@ -85,6 +76,7 @@ namespace laba_3
         public string Name { get; set; }
         public string Color { get; set; }
         public string Species { get; set; }
+        public gender Gender { get; set; }
     }
 
     class Program
@@ -98,11 +90,15 @@ namespace laba_3
             birds[0].Weight = 0.3;
             birds[0].Age = 2;
             birds[0].Color = "grey";
+            birds[0].AbilityToFly = true;
+            birds[0].AbilityToSwim = false;
+            birds[0].Gender = Bird.gender.Female;
             Console.WriteLine(birds[0].Name);
             Console.WriteLine(birds[0].Species);
             Console.WriteLine(birds[0].Weight);
             Console.WriteLine(birds[0].Age);
             Console.WriteLine(birds[0].Color);
+            Console.WriteLine(birds[0].Gender);
         }
     }
 }
