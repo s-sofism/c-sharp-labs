@@ -71,7 +71,10 @@ namespace Library4_2
         static void Main(string[] args)
         {
             double number = InputNumber();
-            Console.WriteLine(MillimetersToCentimeters(36));
+            Console.WriteLine(MillimetersToCentimeters(number));
+            Console.WriteLine(MetersToMillimeters(567));
+            Console.WriteLine(KilometersToDecimeters(893));
+            Console.WriteLine(DecimetersToMeters(43));
         }
     }
 }
