@@ -26,7 +26,9 @@ namespace Laba4_1
             {
                 Console.WriteLine("Command ~> ");
                 string cmd = Console.ReadLine();
-                if (cmd.ToLower().Substring(0, 4) == "draw")
+                string temp = "draw:";
+                Console.WriteLine(temp);
+                if (temp.ToLower().Substring(0, 4) == "draw:")
                 {
                     string[] rec = cmd.Substring(5).Split(':');
 
