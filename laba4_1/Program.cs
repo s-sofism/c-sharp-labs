@@ -30,7 +30,7 @@ namespace Laba4_1
                 Console.WriteLine(temp);
                 if (temp.ToLower().Substring(0, 4) == "draw:")
                 {
-                    string[] rec = cmd.Substring(5).Split(':');
+                    string[] rec = cmd.Split(':');
 
                     int x = Convert.ToInt32(rec[0]);
                     int y = Convert.ToInt32(rec[1]);
