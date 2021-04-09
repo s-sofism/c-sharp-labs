@@ -9,6 +9,6 @@
 
 // Добавьте сюда заголовочные файлы для предварительной компиляции
 #include "framework.h"
-#include "Library_4.2"
+#include "Library.h"
 
 #endif //PCH_H
