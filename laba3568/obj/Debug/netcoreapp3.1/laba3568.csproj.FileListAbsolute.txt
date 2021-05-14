@@ -1,0 +1,13 @@
+C:\Users\София\source\c-charp-labs\laba3568\bin\Debug\netcoreapp3.1\laba3568.exe
+C:\Users\София\source\c-charp-labs\laba3568\bin\Debug\netcoreapp3.1\laba3568.deps.json
+C:\Users\София\source\c-charp-labs\laba3568\bin\Debug\netcoreapp3.1\laba3568.runtimeconfig.json
+C:\Users\София\source\c-charp-labs\laba3568\bin\Debug\netcoreapp3.1\laba3568.runtimeconfig.dev.json
+C:\Users\София\source\c-charp-labs\laba3568\bin\Debug\netcoreapp3.1\laba3568.dll
+C:\Users\София\source\c-charp-labs\laba3568\bin\Debug\netcoreapp3.1\laba3568.pdb
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.csprojAssemblyReference.cache
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.AssemblyInfoInputs.cache
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.AssemblyInfo.cs
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.csproj.CoreCompileInputs.cache
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.dll
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.pdb
+C:\Users\София\source\c-charp-labs\laba3568\obj\Debug\netcoreapp3.1\laba3568.genruntimeconfig.cache
