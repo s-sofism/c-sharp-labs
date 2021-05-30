@@ -4,7 +4,7 @@ using System.Text;
 
 namespace laba3568
 {
-    class Penguin : Bird
+    class Penguin : Bird, ILiving
     {
         public Penguin() 
         { 
@@ -29,6 +29,18 @@ namespace laba3568
         public override string ToString()
         {
             return string.Format("Пингвин {0}, Weight={1}, Age={2}", Name, Weight, Age);
+        }
+        public new void Winter()
+        {
+            Console.WriteLine("Stay in Antarctica");
+        }
+        public void Relax()
+        {
+            Console.WriteLine("Swim in the ocean");
+        }
+        public void Dinner()
+        {
+            Console.WriteLine("To eat fish");
         }
     }
 }

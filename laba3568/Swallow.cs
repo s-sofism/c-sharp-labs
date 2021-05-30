@@ -30,5 +30,9 @@ namespace laba3568
         {
             return string.Format("Ласточка {0}, Weight={1}, Age={2}", Name, Weight, Age);
         }
+        public new void Winter()
+        {
+            Console.WriteLine("Go to Sahara");
+        }
     }
 }

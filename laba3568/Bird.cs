@@ -4,9 +4,11 @@ using System.Text;
 
 namespace laba3568
 {
-    class Bird
+    class Bird : IComparable<Bird>
     {
-        public Bird() { }
+        public Bird()
+        {
+        }
         public Bird(string name, double weight, int age)
         {
             Name = name;
@@ -76,5 +78,28 @@ namespace laba3568
         {
             return string.Format("Птица {0}, Weight={1}, Age={2}", Name, Weight, Age);
         }
+        public void Winter()
+        {
+            Console.WriteLine("Winter where there is food");
+        }
+        public int CompareTo(Bird otherBird)
+        {
+            if (Weight > otherBird.Weight)
+            {
+                return -1;
+            }
+            else
+            {
+                if (Weight < otherBird.Weight)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+        }
+        public bool AbilityToFly { set; get; }
     }
 }
