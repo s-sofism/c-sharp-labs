@@ -45,11 +45,11 @@ namespace Laba7
                     Console.WriteLine("a >= b");
                 }
                 int choose;
-                Console.WriteLine("\nвыберите действие.\n1.c = a + b\n2.c = a - b\n" +
+                Console.WriteLine("\nselect an action.\n1.c = a + b\n2.c = a - b\n" +
                     "3.c = a * b\n4.c = a/b");
                 while (!int.TryParse(Console.ReadLine(), out choose) || choose < 1 || choose > 4)
                 {
-                    Console.WriteLine("ошибка ввода, введите целое число choose до 4");
+                    Console.WriteLine("input error, enter choose value less than 4");
                 }
                 switch (choose)
                 {
