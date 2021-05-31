@@ -1,0 +1,13 @@
+C:\Users\София\source\c-charp-labs\Laba7\bin\Debug\netcoreapp3.1\Laba7.exe
+C:\Users\София\source\c-charp-labs\Laba7\bin\Debug\netcoreapp3.1\Laba7.deps.json
+C:\Users\София\source\c-charp-labs\Laba7\bin\Debug\netcoreapp3.1\Laba7.runtimeconfig.json
+C:\Users\София\source\c-charp-labs\Laba7\bin\Debug\netcoreapp3.1\Laba7.runtimeconfig.dev.json
+C:\Users\София\source\c-charp-labs\Laba7\bin\Debug\netcoreapp3.1\Laba7.dll
+C:\Users\София\source\c-charp-labs\Laba7\bin\Debug\netcoreapp3.1\Laba7.pdb
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.csprojAssemblyReference.cache
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.AssemblyInfoInputs.cache
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.AssemblyInfo.cs
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.csproj.CoreCompileInputs.cache
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.dll
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.pdb
+C:\Users\София\source\c-charp-labs\Laba7\obj\Debug\netcoreapp3.1\Laba7.genruntimeconfig.cache

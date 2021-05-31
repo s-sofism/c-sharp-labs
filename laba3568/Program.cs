@@ -4,7 +4,7 @@ namespace laba3568
 {
     class Program
     {
-        // delegate 8-20
+        // delegate 8-17
         public delegate void DangerDelegate();
         private static void FlyingBird()
         {
