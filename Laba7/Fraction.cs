@@ -220,7 +220,7 @@ namespace Laba7
             }
             else
             {
-                throw new ArgumentException("не рациональное число");
+                throw new ArgumentException("not a rational number");
             }
         }
         public int CompareTo(Fraction obj)
